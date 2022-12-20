@@ -34,3 +34,7 @@ processes = []
     interval = "15s"
     restart_limit = 0
     timeout = "2s"
+
+[mounts]
+  source="social_danpalmer_me_media"
+  destination="/gotosocial/storage"
